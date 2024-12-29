@@ -16,11 +16,11 @@ import {
 const Footer = () => {
   return (
     <footer
-      className="bg-white text-black py-8"
+      className="bg-white text-black py-8 border-t-4 border-gray-300 shadow-md"
       style={{ fontFamily: "'Inter', sans-serif" }}
     >
+      {/* Created by Hardik Jainwal */}
       <div className="max-w-6xl mx-auto px-4 flex flex-wrap justify-between items-start">
-      
         <div className="w-full md:w-1/3 text-center md:text-left mb-6 md:mb-0">
           <img
             src={logoF}
@@ -85,7 +85,6 @@ const Footer = () => {
           </div>
         </div>
 
-        
         <div className="w-full md:w-1/3 mb-6 md:mb-0 md:pl-4">
           <h3 className="text-lg font-semibold border-b-2 border-orange-400 inline-block mb-4">
             Quick Links
@@ -177,6 +176,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 

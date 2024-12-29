@@ -15,7 +15,9 @@ import News from "./Component/Body/News";
 import OurPartners from "./Component/Body/OurPartners";
 import DepartmentPage from "./Component/Body/DepartmentPage";
 import ListOfFaculties from "./Component/Body/ListOfFaculties";
-import Achievement from "./Component/Body/Achievement";
+import StudyProgramsSection from "./Component/Body/StudentProgram";
+import EventsAndActivities from "./Component/Body/StudentEvents";
+
 
 
 
@@ -35,10 +37,11 @@ function App() {
               <Announcements/>
                <Message/>
                <Card/>
+               <StudyProgramsSection/>
               <OurCampuses />
               <OurPartners/>
               <News/>
-               <Achievement/>
+              <EventsAndActivities/> 
             </>
           }
         />
